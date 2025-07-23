@@ -13,7 +13,9 @@ public class App {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(App.class, args);
 		StudentService stdservice = context.getBean(StudentServiceImp.class);
-
+		
+//------------------Insertion Operation----------------------------------
+		
 		Student std = new Student();
 		std.setName("Rohit");
 		std.setRollNo(45);
